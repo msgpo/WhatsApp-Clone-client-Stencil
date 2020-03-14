@@ -99,12 +99,13 @@
     graphql-tools "4.0.3"
     tslib "1.9.3"
 
-"@ionic/core@4.0.0-rc.2":
-  version "4.0.0-rc.2"
-  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.0.0-rc.2.tgz#16eb8d1ea66e32a834ee95405973532a2b065147"
-  integrity sha512-01zoQOhb7PzjJwQYwfmiiGYp6iPfDJFLds7KSiXZVafzihwWvL6Bsww5EWYLXcJ8nl0w2izoaGs74f+zBQW5Lw==
+"@ionic/core@5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-5.0.5.tgz#d099b3ccddedb818354a233419671d2ace749a07"
+  integrity sha512-k0O5V/3sFB55E+hKSqio1iDfwibZdlI97PuaI4PcGQDytzUCyGTlGAZn6iLi82NZqBRWWLOpwy+8N/cySiTWKg==
   dependencies:
-    ionicons "4.5.1"
+    ionicons "^5.0.1"
+    tslib "^1.10.0"
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
@@ -2095,10 +2096,10 @@ invert-kv@^1.0.0:
   resolved "https://registry.yarnpkg.com/invert-kv/-/invert-kv-1.0.0.tgz#104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6"
   integrity sha1-EEqOSqym09jNFXqO+L+rLXo//bY=
 
-ionicons@4.5.1:
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-4.5.1.tgz#a180e8948256e6337c2d290eb07f9113dc7b09eb"
-  integrity sha512-zqfkjpPKsdzzXePdE03IRw6xt7B6N3fcN/7NepyniuEWhKZLy7YpdZLegEwBmKeciXi7rIcv1O/hHJTdokUwXQ==
+ionicons@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-5.0.1.tgz#fb48475b042b04b3ed2ba9876800687917d4603d"
+  integrity sha512-P9GHr7pgCJcG211W0wute49NZ9AvJZvFJf4OwYybakjX6j7tu0q5t5HNWn9bcb9YjI7SxBblJg8iqQ1Yb59DXw==
 
 is-accessor-descriptor@^0.1.6:
   version "0.1.6"
@@ -4323,6 +4324,11 @@ tslib@1.9.3, tslib@^1.9.0, tslib@^1.9.3:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
+
+tslib@^1.10.0:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.1.tgz#eb15d128827fbee2841549e171f45ed338ac7e35"
+  integrity sha512-aZW88SY8kQbU7gpV19lN24LtXh/yD4ZZg6qieAJDDg+YBsJcSmLGK9QpnUjAKVG/xefmvJGd1WUmfpT/g6AJGA==
 
 tunnel-agent@^0.6.0:
   version "0.6.0"
